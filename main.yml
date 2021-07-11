@@ -1,0 +1,9 @@
+---
+- name: To install nginx
+  hosts: nginx
+  gather_facts: true
+  become: yes
+  become_method: sudo
+  ignore_errors: true
+  roles:
+    - nginx

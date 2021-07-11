@@ -1,0 +1,2 @@
+source_file: ../file/index.html
+destination_file: /var/www/html/

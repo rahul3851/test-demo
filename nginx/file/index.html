@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WELCOME TO THE DEMO SESSION!</title>
+<style>
+    body {
+        width: 25em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>WELCOME TO THE DEMO SESSION</h1>
+<h2>Hands On Activity for Nginx..!</h2>
+<h3>HostName</h3>
+<body onload="myFunction()">
+<p id="demo"></p>
+<script>
+function myFunction(){
+  var x = location.hostname;
+  document.getElementById("demo").innerHTML= x;
+}
+</script>
+
+<h3>Public IPv4 DNS</h3>
+<p>ec2-13-127-67-194.ap-south-1.compute.amazonaws.com</p>
+
+<h3>System Information</h3>
+<p>Linux ip-172-31-15-236 5.4.0-1045-aws #47~18.04.1-Ubuntu SMP</p>
+
+</body>
+</html>
